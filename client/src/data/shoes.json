@@ -1,0 +1,97 @@
+[
+    {
+        "name": "Nike Air Force 1",
+        "image": "/shoes/nike-1.webp",
+        "brand": "nike",
+        "status": "2hand",
+        "price": 100
+    },
+
+    {
+        "name": "Nike Court Vision Low",
+        "image": "/shoes/nike-2.webp",
+        "brand": "nike",
+        "status": "2hand",
+        "price": 100
+    },
+
+    {
+        "name": "Nike Air Max 97 SE",
+        "image": "/shoes/nike-3.webp",
+        "brand": "nike",
+        "status": "2hand",
+        "price": 100
+    },
+
+    {
+        "name": "Nike Revolution 6",
+        "image": "/shoes/nike-4.webp",
+        "brand": "nike",
+        "status": "new",
+        "price": 200
+    },
+
+    {
+        "name": "Nike Blazer Mid '77 Vintage",
+        "image": "/shoes/nike-5.webp",
+        "brand": "nike",
+        "status": "new",
+        "price": 200
+    },
+
+    {
+        "name": "Nike Court Vision Low",
+        "image": "/shoes/nike-6.webp",
+        "brand": "nike",
+        "status": "new",
+        "price": 200
+    },
+    
+    {
+        "name": "SAMBA DECON",
+        "image": "/shoes/adidas-1.avif",
+        "brand": "adidas",
+        "status": "2hand",
+        "price": 100
+    },
+
+    {
+        "name": "GAZELLE",
+        "image": "/shoes/adidas-2.avif",
+        "brand": "adidas",
+        "status": "2hand",
+        "price": 100
+    },
+
+    {
+        "name": "ENGLEWOOD SPZL",
+        "image": "/shoes/adidas-3.avif",
+        "brand": "adidas",
+        "status": "2hand",
+        "price": 100
+    },
+
+    {
+        "name": "QUESTAR",
+        "image": "/shoes/adidas-4.avif",
+        "brand": "adidas",
+        "status": "new",
+        "price": 200
+    },
+
+    {
+        "name": "PUREBOOST 23",
+        "image": "/shoes/adidas-5.avif",
+        "brand": "adidas",
+        "status": "new",
+        "price": 200
+    },
+
+    {
+        "name": "KANTANA",
+        "image": "/shoes/adidas-6.avif",
+        "brand": "adidas",
+        "status": "new",
+        "price": 200
+    }
+]

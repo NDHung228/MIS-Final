@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.section-title-underline {
+    @apply w-[100px] h-[3px] rounded-full block mx-auto my-3;
+}
+
+.coupon .card {
+    width: 360px;
+    height: 130px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+    /* background-color: #ba2c2c; */
+    padding: 10px 10px;
+    position: relative;
+}
+
+.coupon .main,
+.coupon .copy-button {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    align-items: center;
+}
+
+.coupon .card::after {
+    position: absolute;
+    content: "";
+    height: 40px;
+    right: -20px;
+    border-radius: 40px;
+    z-index: 1;
+    top: 50px;
+    background-color: #fff;
+    width: 40px;
+}
+
+.coupon .card::before {
+    position: absolute;
+    content: "";
+    height: 40px;
+    left: -20px;
+    border-radius: 40px;
+    z-index: 1;
+    top: 50px;
+    background-color: #fff;
+    width: 40px;
+}
+
+.coupon .co-img img {
+    width: 100px;
+    height: 100px;
+}
+
+.coupon .vertical {
+    border-left: 5px dotted #fff;
+    height: 100px;
+    position: absolute;
+    left: 43%;
+}
+
+.coupon .content h1 {
+    font-size: 35px;
+    margin-left: -20px;
+    color: #fff;
+}
+
+.coupon .content h1 span {
+    font-size: 18px;
+}
+
+.coupon .content h2 {
+    font-size: 18px;
+    margin-left: -20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.coupon .content p {
+    font-size: 16px;
+    color: #fff;
+    margin-left: -20px;
+}
